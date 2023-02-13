@@ -1,0 +1,262 @@
+body{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #C0EEF2;
+    margin: 0;
+    text-align: center; /* to center the every element in body*/
+}
+p{
+    font-family: noticia text;
+     font-size: 15px;
+    
+}
+span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+hr{ border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    width: 6%;
+    border-color: rgb(60, 149, 233);
+
+}
+h4{
+    margin: 0;
+}
+h3{ margin: 0;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h1{
+   /* position: relative;
+    top: 100px;*/
+    
+    color: rgb(253, 120, 67);
+    display: inline-block;
+    font-family: great vibes;
+    width: 15%;
+    margin: 50px auto 0 auto;/*t to center the 10% width element in midlle*/ 
+}
+.d1{
+    color: rgb(9, 248, 176);
+    font-size: 20px;
+    font-weight: normal;
+}
+/*img{
+    position: absolute;
+    left: 25%;
+    top: 150px;
+}*/
+.div1{position: relative; 
+    padding-top: 100px;
+    padding-bottom: 50px;
+    height: 500px;
+    margin: 10px;
+    background-color: rgb(160, 236, 250);
+
+}
+/* .moutnain{
+    width: 40%;
+} */
+/* ######HERE WE CAN ALSO USE THIS MANUAL METHOD(THE CODE WHICH ARE COMMENT OUT) BUT IT IS LESS STRUCTURED AND ALSO TIME CONSUMING########
+p{
+    position: absolute;
+    top: 140px;
+    left: 550px;
+}*/
+/*Class Slector*/
+
+.btech{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}  
+
+.cloud1{
+    position: absolute;
+    top:180px;
+    left: 300px;
+}
+.cloud2{
+    position: absolute;
+    top:40px;
+    left: 800px;
+}
+.bird2{
+    display: inline;
+    position: absolute;
+    top:75px;
+    left: 630px;
+    width: 100px;
+}
+.div2{
+    margin: 50px 5px 50px 5px;
+ 
+    text-align: center;
+    padding-top: 10px;
+
+}
+.my-intro{
+    width: 30%;
+    margin:20px auto 0 auto ;
+    text-align: center;
+    line-height: 1.5;
+
+}
+/* div 3*/
+.div3{
+    margin: 30px;
+}
+.skill1{
+    margin:10px ;
+}
+.skill2{
+    margin:10px ;
+}
+.skill3{
+    margin:10px ;
+}
+.dp{
+     width:10%;
+     margin-bottom: 20px;
+   }
+.skillimg{
+    width:10%;
+    margin: 30px 0 0 0;
+}   
+.hitimg{
+    height: 0px;
+    width: 18%;
+}
+.div4{ 
+    margin: 40px 0 40px 0;
+    padding: 10px;
+    position: relative;
+    text-align: unset;
+    
+}
+.div41{ display: inline-block;
+    margin-top: 0;
+    text-align: unset;
+    position: relative;
+    left: 80px;
+    padding-top:50px;
+    /*width of hIT*/
+}
+.div42{ display: inline-block;
+    margin-top: 0;
+    text-align: unset;
+    position: relative;
+    right: 400px;
+    padding-top:50px;
+    /*width of hIT*/
+}
+.div43{ display: inline-block;
+    margin-top: 0;
+    text-align: unset;
+    position: relative;
+    left: 450px;
+    padding-top:50px;
+    /*width of hIT*/
+}
+.hatgif{
+    position: absolute;
+    /*left: 10px;*/
+    width: 60px;
+    padding-top: 50px;
+}
+.schoolgif{
+    position: absolute;
+    left: 70px;
+    width: 60px;
+    padding-top: 50px;
+}
+.schoolgif2{
+    position: absolute;
+    right: 250px;
+    width: 60px;
+    padding-top: 50px;
+}
+.edup{
+    font-size: 15px;
+}
+/* Div 5 Block elements*/
+.div5{
+    margin: 20px;
+ padding-bottom: 10px;
+}
+.div51{
+    display: inline-block;
+    position: relative;
+    right: 150px;
+   padding-top: 10px;
+}
+.callgif{
+    width: 40px;
+    position: absolute;
+    left: 300px;
+    padding-top: 10px;
+}
+.div52{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+   padding-top: 10px;
+}
+.mailgif{
+    width: 40px;
+    position: absolute;
+    right: 500px;
+    padding-top: 10px;
+}
+.div6{
+   margin-top: 50px;
+   margin-bottom: 50px;
+    
+}
+.btn {
+    background: #87ccfa;
+    background-image: -webkit-linear-gradient(top, #87ccfa, #05f5e9);
+    background-image: -moz-linear-gradient(top, #87ccfa, #05f5e9);
+    background-image: -ms-linear-gradient(top, #87ccfa, #05f5e9);
+    background-image: -o-linear-gradient(top, #87ccfa, #05f5e9);
+    background-image: linear-gradient(to bottom, #87ccfa, #05f5e9);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Georgia;
+    color: #fdfcfb;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #a4e8ed;
+    background-image: -webkit-linear-gradient(top, #a4e8ed, #38afff);
+    background-image: -moz-linear-gradient(top, #a4e8ed, #38afff);
+    background-image: -ms-linear-gradient(top, #a4e8ed, #38afff);
+    background-image: -o-linear-gradient(top, #a4e8ed, #38afff);
+    background-image: linear-gradient(to bottom, #a4e8ed, #38afff);
+    text-decoration: none;
+  }
+.div7{
+    margin-bottom: 20px;
+    height: 100px;
+    background-color: #05f5e9;
+}  
+h5{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: px;
+    color: rgb(243, 247, 243);
+}
+a{ display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: blue;
+   margin: 10px 10px 1px ;
+    text-decoration: none;
+}
+a:hover{
+    color: aliceblue;
+}
+
